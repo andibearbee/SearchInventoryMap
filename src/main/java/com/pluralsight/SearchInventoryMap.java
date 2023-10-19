@@ -24,7 +24,7 @@ public class SearchInventoryMap {
                         matchedProduct.getName(), matchedProduct.getPrice());
 
                 System.out.println("\n Would you like to view another product? (Y/N)");
-                String userResponse = scanner.nextLine();
+                String userResponse = scanner.next();
                 if (userResponse.equalsIgnoreCase("n")) {
                     break;
                 }
